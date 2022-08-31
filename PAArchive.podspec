@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PAArchive'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An archiving API in use at Picsart, using libarchive behind the scenes.'
 
   s.description      = <<-DESC
@@ -38,7 +38,7 @@ This is a pod developed to use libarchive and expose the API in a more mobile-fr
     'CLANG_ENABLE_MODULES' => 'YES',
     # 'CLANG_ENABLE_OBJC_ARC' => 'YES',
     # 'CLANG_ENABLE_OBJC_WEAK' => 'YES',
-    'ENABLE_STRICT_OBJC_MSGSEND' => 'YES'
+    'ENABLE_STRICT_OBJC_MSGSEND' => 'YES',
     'OTHER_LDFLAGS' => '-lObjC' 
   }
   
