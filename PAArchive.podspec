@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PAArchive'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'An archiving API in use at Picsart, using libarchive behind the scenes.'
 
   s.description      = <<-DESC
