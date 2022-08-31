@@ -24,7 +24,7 @@ This is a pod developed to use libarchive and expose the API in a more mobile-fr
 
   s.source_files = [
     'Sources/*',
-    'libarchive/libarchive/*.(h,c)'
+    'libarchive/libarchive/*.{h,c}'
   ]
   
   s.public_header_files = 'Sources/PAArchive.h'
