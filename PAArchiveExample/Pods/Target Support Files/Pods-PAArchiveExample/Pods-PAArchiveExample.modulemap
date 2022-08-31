@@ -1,0 +1,6 @@
+framework module Pods_PAArchiveExample {
+  umbrella header "Pods-PAArchiveExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
