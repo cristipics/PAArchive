@@ -10,21 +10,21 @@
 
 @implementation PAArchive
 
-- (BOOL)archiveFilesWith:(NSArray<NSString *> *)paths
-                      to:(NSString*)destination
-               overwrite:(BOOL)overwrite {
++ (BOOL)archiveFilesAtPaths:(NSArray<NSString *> *)paths
+                         to:(NSString*)destination
+                  overwrite:(BOOL)overwrite {
     return YES;
 }
 
-- (BOOL)archiveContentsOfFolderAt:(NSArray<NSString *> *)path
-                               to:(NSString*)destination
-                        overwrite:(BOOL)overwrite {
++ (BOOL)archiveContentsOfFolderAtPath:(NSArray<NSString *> *)path
+                                   to:(NSString*)destination
+                            overwrite:(BOOL)overwrite {
     return YES;
 }
 
-- (BOOL)unarchiveFile:(NSString *)source
-                   to:(NSString*)destination
-            overwrite:(BOOL)overwrite {
++ (BOOL)unarchiveFileAtPath:(NSString *)source
+                         to:(NSString*)destination
+                  overwrite:(BOOL)overwrite {
     return YES;
 }
 
